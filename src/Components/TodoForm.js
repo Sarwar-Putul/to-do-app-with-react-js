@@ -38,8 +38,7 @@ const TodoForm = (props) => {
                 <input type="text" placeholder="Add a todo" value={input} name="text" className="todo-input" onChange={handleChange} ref={inputRef} />
                 <button className="todo-button">Add Button</button>
             </>
-        )}
-            
+        )}     
         </form>
     );
 };
